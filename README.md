@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -37,32 +35,32 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Folder structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Components
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Simple react components which are constituting user's interface
 
-### Code Splitting
+### Constants
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+All constants files concentrated here
 
-### Analyzing the Bundle Size
+### Hooks
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Functionality to work with components states
 
-### Making a Progressive Web App
+### Mappers
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Functionality to work with each element of group
 
-### Advanced Configuration
+### Selectors
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Functions that are used to select subset of data from a larger data collection
 
-### Deployment
+### Services
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+Workaround with api or another data sources
 
-### `npm run build` fails to minify
+### Utils
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Any functionality that solves various types of tasks
